@@ -1,0 +1,39 @@
+[16:00:10] [main/INFO]: Extra: [--tweakClass, me.tutomixin.tutoclientmixin.mixins.ClientTweaker]
+[16:00:10] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/user/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, me.tutomixin.tutoclientmixin.mixins.ClientTweaker]
+[16:00:10] [main/INFO]: Loading tweak class name me.tutomixin.tutoclientmixin.mixins.ClientTweaker
+[16:00:10] [main/INFO]: Using primary tweak class name me.tutomixin.tutoclientmixin.mixins.ClientTweaker
+[16:00:10] [main/INFO]: Calling tweak class me.tutomixin.tutoclientmixin.mixins.ClientTweaker
+[16:00:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/home/user/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=UNKNOWN
+[16:00:11] [main/INFO]: FML platform manager could not load class cpw.mods.fml.relauncher.CoreModManager. Proceeding without FML support.
+[16:00:11] [main/WARN]: MixinEnvironment::addConfiguration is deprecated and will be removed. Use Mixins::addConfiguration instead!
+[16:00:12] [main/INFO]: Compatibility level set to JAVA_8
+[16:00:12] [main/ERROR]: Mixin config mixins.tutoclientmixin.json does not specify "minVersion" property
+[16:00:12] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:00:12] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:00:13] [main/INFO]: Remapping refMap mixins.tutoclientmixin.refmap.json using /home/user/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[16:00:13] [main/ERROR]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.tutoclientmixin.json:client.MixinMinecraft, name: me.tutomixin.tutoclientmixin.mixins.client.MixinMinecraft
+[16:00:13] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:00:14] [main/INFO]: Mixing client.MixinMinecraft from mixins.tutoclientmixin.json into net.minecraft.client.Minecraft
+[16:00:20] [Client thread/ERROR]: Can't find the resource index file: 1.8.9/assets/indexes/1.8.json
+[16:00:21] [Client thread/INFO]: Setting user: Player208
+[16:00:21] [Client thread/INFO]: (Session ID is token:FML:Player208)
+[16:00:30] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:00:39] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:00:40] [Client thread/ERROR]: Couldn't initialize twitch stream
+[16:00:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:00:40] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[16:00:40] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:00:42] [Thread-7/INFO]: OpenAL initialized.
+[16:00:42] [Sound Library Loader/INFO]: Sound engine started
+[16:00:49] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:00:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[16:00:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[16:01:00] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[16:01:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[16:01:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[16:01:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[16:01:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[16:01:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[16:01:18] [Client thread/INFO]: Stopping!
+[16:01:18] [Client thread/INFO]: SoundSystem shutting down...
+[16:01:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "verbose": true,
+  "package": "me.tutomixin.tutoclientmixin.mixins",
+  "refmap": "mixins.tutoclientmixin.refmap.json",
+  "mixins": [
+    "client.MixinMinecraft"
+  ]
+}
